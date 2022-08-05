@@ -1,6 +1,6 @@
 # Remix vs Next.js Fetch
 
-While testing out both Remix and Next.js, I noticed that the `fetch` polyfill for Next.js seems to be significantly faster than the Remix version.  This is a simple reproduction to demonstrat the differences.
+While testing out both Remix and Next.js, I noticed that the `fetch` polyfill for Next.js seems to be significantly faster than the Remix version.  This is a simple reproduction to demonstrate the differences.
 
 Here are the results from running `node index.mjs`:
 
