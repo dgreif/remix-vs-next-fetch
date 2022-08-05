@@ -1,0 +1,21 @@
+{
+  "name": "remix-fetch-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@remix-run/node": "^1.6.7",
+    "next": "12.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "@types/react": "^18.0.15",
+    "typescript": "^4.7.4"
+  }
+}
