@@ -8,7 +8,7 @@ export async function testFetch(name, fetchMethod) {
   for (let i = 0; i < 5; i++) {
     const start = performance.now();
 
-    const response = await fetchMethod("https://www.github.com");
+    const response = await fetchMethod(fetchPath);
     await response.text();
     const duration = performance.now() - start;
 
